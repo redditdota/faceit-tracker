@@ -96,7 +96,7 @@ EU = {
 	86700461: ('w33haa', 'w33haa'), 
 	88826062: ('Rajjix', None), 
 	86745912: ('Arteezy', 'arteezy'), 
-	141690233: ('canceL^^', 'canceldota'), 
+	141690233: ('canceL\^\^', 'canceldota'), 
 	94054712: ('Topson', 'topsonous'), 
 	70388657: ('DendiGoD', 'dendi'), 
 	87382579: ('miserydota', 'miserytheslayer'), 
