@@ -113,7 +113,7 @@ def get_server_steam_id(lobby_id):
         if "LobbyId" in state and int(state["LobbyId"]) == int(lobby_id):
             return (match["Config"]["name"], state["ServerSteamID"])
 
-    return None
+    return (None, None)
 
 def get_leaderboards(league_id):
     uri = "http://api.faceit.com/leaderboard/v1/ranking/hub/%s?leaderboardType=hub_season&limit=5&offset=0&season=1" % league_id
