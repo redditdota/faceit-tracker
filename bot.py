@@ -8,9 +8,6 @@ from casters import *
 from template import *
 from heroes import *
 
-# how often to update thread
-REFRESH_RATE = 60 * 2
-
 def setup_connection_reddit(code):
     """ Creates a c/#onnection to the reddit API. """
     print("[bot] Setting up connection with reddit")
@@ -148,7 +145,11 @@ def main():
 
             post.edit(text)
             print("[bot] done...")
-            time.sleep(REFRESH_RATE)
+
+            if len(filtered_matches) == 0:
+            	time.sleep(60)
+            else:
+            	time.sleep(5 * 60)
         except Exception as e:
             print("[bot] ERROR: " + str(e))
             traceback.print_exc()
