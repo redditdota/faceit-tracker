@@ -1,4 +1,4 @@
-iCreate a file called "tokens.py" with
+Create a file called "tokens.py" with
 
 ```
 TWITCH_CLIENT_ID = "client_id"
