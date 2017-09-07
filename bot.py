@@ -4,6 +4,7 @@ import traceback
 from api import *
 from EU import *
 from NA import *
+from casters import *
 from template import *
 from heroes import *
 
@@ -47,7 +48,7 @@ def format_match(m):
     radiant = []
     streams = []
     for p in m["players"]:
-        if p["team"] != 0 and p["team"] != 1:
+        if p["team"] != 0 and p["team"] != 1 and p["team"] != 2:
             continue
 
         aid = int(p["account_id"])
@@ -58,7 +59,6 @@ def format_match(m):
             continue
 
         hero = HEROES[int(p["hero_id"])]
-
         if player_info[1] is not None and is_live(player_info[1]):
             stream_link = player_info[1]
             streams.append(stream_link)
