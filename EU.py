@@ -106,5 +106,6 @@ EU = {
 	33366656: ('TobiWanDOTA', 'tobiwan'), 
 	86884117: ('FACEIT_Mikey', 'mkylcs'), 
 	182584149: ('Cashflo', None), 
-	90180366: ('mYiMitch', None)
+	90180366: ('mYiMitch', None),
+	116585378: ('MidOne', 'midone')
 }

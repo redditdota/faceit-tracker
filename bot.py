@@ -50,6 +50,10 @@ def format_match(m):
 
         aid = int(p["account_id"])
         player_info = EU.get(aid, NA.get(aid))
+        if player_info is None:
+            print(p)
+            continue
+            
         player_name = "%s (%s)" % (p['name'], player_info[0])
         if player_info is None:
             print("Unknown player: " + str(p))
