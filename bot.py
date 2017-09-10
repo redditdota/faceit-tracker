@@ -31,11 +31,14 @@ def is_notable(game):
     players = game["players"]
     num_notable = 0
     for p in players:
+        if p["team"] != 0 and p["team"] != 1:
+            continue
+
         aid = int(p["account_id"])
         if aid in EU.keys() or aid in NA.keys():
             num_notable += 1
 
-    if num_notable > 5:
+    if num_notable > 8:
         return True
     else:
         return False
@@ -51,9 +54,9 @@ def format_match(m):
         aid = int(p["account_id"])
         player_info = EU.get(aid, NA.get(aid))
         if player_info is None:
-            print(p)
-            continue
-            
+            print("[bot] Player not found:" + str(p))
+            player_info = (p["name"], None)
+
         player_name = "%s (%s)" % (p['name'], player_info[0])
         if player_info is None:
             print("Unknown player: " + str(p))
