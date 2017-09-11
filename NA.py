@@ -22,7 +22,7 @@ NA = {
 	36343070: ('briink', 'brinkdota'), 
 	186837494: ('WuDotA', 'wudota_'), 
 	102823997: ('MJW1234', None), 
-	86828698: ('dreKy', None), 
+	86828698: ('Tralf', 'tralf'), 
 	86975889: ('Monster---', None), 
 	25907144: ('Cr1t', 'cr1tdota'), 
 	108660242: ('Bonafide', 'bonafide21'), 
@@ -113,5 +113,6 @@ NA = {
 	49317728: ('kylefreedman', 'melonzz'), 
 	86884117: ('FACEIT_Mikey', 'mkylcs'), 
 	182584149: ('Cashflo', None), 
-	97975407: ('Stinger--', 'stingerdota')
+	97975407: ('Stinger--', 'stingerdota'),
+	28070572: ('Papita', 'p4pita')
 }
