@@ -114,5 +114,6 @@ NA = {
 	86884117: ('FACEIT_Mikey', 'mkylcs'), 
 	182584149: ('Cashflo', None), 
 	97975407: ('Stinger--', 'stingerdota'),
-	28070572: ('Papita', 'p4pita')
+	28070572: ('Papita', 'p4pita'),
+	70090192: ('trent', 'moonducktv')
 }
