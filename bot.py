@@ -118,8 +118,8 @@ def main():
             text += "# Leaderboards\n"
             text += format_leaderboards(LEAGUES) + "\n\n"
 
-            text += "* [Full EU Leaderboards](https://www.faceit.com/en/hub/5aa025ad-729c-48b4-8fe3-0145384547ba/FPL%20Europe/leaderboard?season=1) \n"
-            text += "* [Full NA Leaderboards](https://www.faceit.com/en/hub/e6329339-66d1-428a-a281-132c194c1bef/FPL%20North%20America/leaderboard?season=1) \n"
+            text += "* [Full EU Leaderboards](https://www.faceit.com/en/hub/5aa025ad-729c-48b4-8fe3-0145384547ba/FPL%20Europe/leaderboard/1) \n"
+            text += "* [Full NA Leaderboards](https://www.faceit.com/en/hub/e6329339-66d1-428a-a281-132c194c1bef/FPL%20North%20America/leaderboard/1) \n"
             text += "\n---\n"
 
             matches = get_faceit_matches()
