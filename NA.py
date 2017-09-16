@@ -115,5 +115,6 @@ NA = {
 	182584149: ('Cashflo', None), 
 	97975407: ('Stinger--', 'stingerdota'),
 	28070572: ('Papita', 'p4pita'),
-	70090192: ('trent', 'moonducktv')
+	70090192: ('trent', 'moonducktv'),
+	87293485: ('Zyzzy', 'zyzzydota')
 }
