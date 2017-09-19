@@ -4,7 +4,6 @@ import traceback
 from api import *
 from EU import *
 from NA import *
-from casters import *
 from template import *
 from heroes import *
 
@@ -37,8 +36,11 @@ def is_notable(game):
         aid = int(p["account_id"])
         if aid in EU.keys() or aid in NA.keys():
             num_notable += 1
+        else:
+            print("[bot] Player not found:" + str(p))
 
-    if num_notable > 8:
+
+    if num_notable > 5:
         return True
     else:
         return False

@@ -107,5 +107,7 @@ EU = {
 	86884117: ('FACEIT_Mikey', 'mkylcs'), 
 	182584149: ('Cashflo', None), 
 	90180366: ('mYiMitch', None),
-	116585378: ('MidOne', 'midone')
+	116585378: ('MidOne', 'midone'),
+	96169991: ('Ar1sE-', 'arise_3012'),
+	91516368: ('!Stylezz', None)
 }
