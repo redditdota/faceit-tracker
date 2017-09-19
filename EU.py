@@ -109,5 +109,9 @@ EU = {
 	90180366: ('mYiMitch', None),
 	116585378: ('MidOne', 'midone'),
 	96169991: ('Ar1sE-', 'arise_3012'),
-	91516368: ('!Stylezz', None)
+	91516368: ('!Stylezz', None),
+	98167706: ('dnz', 'dnzgamer'), 
+	111030315: ('w_Zayac', None), 
+	57516313: ('eL lisasH', 'el_lisash'), 
+	56939869: ('Gorgc', 'gorgcc')
 }
