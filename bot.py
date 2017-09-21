@@ -37,7 +37,8 @@ def is_notable(game):
         if aid in EU.keys() or aid in NA.keys():
             num_notable += 1
         else:
-            print("[bot] Player not found:" + str(p))
+            if num_notable > 0:
+                print("[bot] Player not found:" + str(p))
 
 
     if num_notable > 5:
@@ -84,9 +85,9 @@ def format_match(m):
 
 
     ret = LIVE % (radiant[0][1], radiant[0][0], dire[0][0], dire[0][1],
-                  radiant[1][1], radiant[1][0], dire[1][0], dire[1][1], 
-                  radiant[2][1], radiant[2][0], dire[2][0], dire[2][1],  
-                  radiant[3][1], radiant[3][0], dire[3][0], dire[3][1],  
+                  radiant[1][1], radiant[1][0], dire[1][0], dire[1][1],
+                  radiant[2][1], radiant[2][0], dire[2][0], dire[2][1],
+                  radiant[3][1], radiant[3][0], dire[3][0], dire[3][1],
                   radiant[4][1], radiant[4][0], dire[4][0], dire[4][1])
     return (ret, streams)
 
@@ -138,7 +139,7 @@ def main():
                 text += "#" + name.replace("team_", "Team ").title().replace("Vs", "vs.") + "\n"
 
                 (players, streams) = format_match(m)
-                
+
                 text += players
 
                 if len(streams) > 0:
