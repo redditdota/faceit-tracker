@@ -111,7 +111,7 @@ def main():
         try:
             print("[bot] updating...")
 
-            text = "# FaceIT Pro League\n"
+            text = "# FaceIT Pro League Season 2\n"
             text += "Invite-only inhouse league for professional and high MMR players. \n\n"
             text += "Ten players queue for a game. Two players are chosen as captain, who then pick the remaining players in the 1-2-2-2-1 picking order.\n\n"
             text += "Games are played in captain's mode and points are rewarded based on wins, losses, and streaks.\n\n"

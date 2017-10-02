@@ -116,7 +116,7 @@ def get_server_steam_id(lobby_id):
     return (None, None)
 
 def get_leaderboards(league_id):
-    uri = "http://api.faceit.com/leaderboard/v1/ranking/hub/%s?leaderboardType=hub_season&limit=5&offset=0&season=1" % league_id
+    uri = "http://api.faceit.com/leaderboard/v1/ranking/hub/%s?leaderboardType=hub_season&limit=5&offset=0&season=2" % league_id
     result = _get(uri)
     ret = []
     if result is None or "payload" not in result:

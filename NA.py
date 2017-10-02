@@ -119,5 +119,6 @@ NA = {
 	87293485: ('Zyzzy', 'zyzzydota'),
 	154715080: ('Abed', 'abedyusop'),
 	95825708: ('sqm', 'sqm'),
-    204872035: ('Kingteka', None)
+    204872035: ('Kingteka', None),
+    97676580: ('JungeT', None)
 }
