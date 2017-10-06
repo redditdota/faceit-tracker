@@ -129,7 +129,7 @@ def main():
             filtered_matches = [m for m in matches if is_notable(m)]
             if len(filtered_matches) == 0:
                 text += "## No Live Matches Currently...\n"
-                text += "---"
+                text += "---\n"
 
             for m in filtered_matches:
                 (name, server_steam_id) = get_server_steam_id(m["lobby_id"])
