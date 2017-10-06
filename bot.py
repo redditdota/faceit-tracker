@@ -153,6 +153,8 @@ def main():
 
                 text += "\n---\n"
 
+            text += "Click [here](https://blog.faceit.com/announcing-the-fpl-circuit-and-qualification-for-dota2-45a981440d3e) for more information about how you can play in the FPL Circuit.\n\n"
+
             post.edit(text)
             print("[bot] done...")
 

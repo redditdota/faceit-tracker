@@ -120,5 +120,6 @@ NA = {
 	154715080: ('Abed', 'abedyusop'),
 	95825708: ('sqm', 'sqm'),
     204872035: ('Kingteka', None),
-    97676580: ('JungeT', None)
+    97676580: ('JungeT', None),
+    86743641: ('RyuuDota', 'ryuuboruzz'),
 }
